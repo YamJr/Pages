@@ -1,0 +1,153 @@
+.travel__section{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 6rem 0;
+}
+
+.travel__detail{
+    display: flex;
+    flex-direction: column; 
+}
+.travel__desc{
+    max-width: 70%;
+}
+.travel__title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.see__btn{
+    margin-top: 2rem;
+}
+.seeall__btn{
+    border: 1px solid #8DD3BB;
+    color:  #112211;
+    padding: 4px 6px;
+    text-transform: capitalize;
+}
+
+.flight__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 2rem 6rem;
+  }
+  
+  .flight__card {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem;
+    
+  }
+  
+  .flight__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .card__detail{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .card__title{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .card__desc{
+    font-size: 14px;
+  }
+  .card__price{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .flight__btn {
+    background-color: #8DD3BB;
+    border: none;
+    color: #112211;
+    text-transform: capitalize;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .flight__btn:hover {
+    background-color: white;
+    transition: 0.5s ease-in;
+  }
+  .backpack__section{
+    display: flex; 
+    margin: 2rem 6rem; 
+    /* justify-content: space-between; */
+    gap: 30px;
+  }
+  .content__backpack{
+    display: flex;
+    flex-direction: column;
+    background-color: #8DD3BB;
+    color: #112211;
+    padding: 2rem;
+    border-radius: 9px;
+  }
+  .backpack__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .backpack__heading{
+    font-size: 40px;
+    max-width: 40%;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .content__gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .book__type{
+    background-color: white;
+    width: 60px;
+    border-radius: 9px;
+    height: auto;
+    padding: 12px;
+  }
+  .book__type p{
+    max-width: 50px;
+  }
+  .content__gallery img{
+    width:318px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #8DD3BB;
+    border-radius: 9px;
+  }
+  .backpack__details p{
+    margin-top: 25px;
+    color: #112211;
+    font-size: 14px;
+  }
+  .book__flight{
+    margin-top: 8rem;
+    padding: 13px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #112211;
+  }
+  .book__flight:hover{
+    background-color:#112211;
+    color: #ffffff;
+    transition: 0.6s ease-in;
+  }
+  
